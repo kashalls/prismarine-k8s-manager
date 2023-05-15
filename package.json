@@ -1,0 +1,15 @@
+{
+  "name": "prismarine-k8s-manager",
+  "packageManager": "yarn@3.5.1",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@fastify/websocket": "^8.0.0",
+    "@kubernetes/client-node": "^0.18.1",
+    "fastify": "^4.17.0",
+    "uuid": "^9.0.0"
+  }
+}
