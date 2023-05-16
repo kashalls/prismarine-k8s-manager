@@ -1,0 +1,37 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: prismarine-controller
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: prismarine-client
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: prismarine-controller-secret
+  namespace: prismarine-controller
+type: Opaque
+data:
+  DATABASE_URL: <Password>
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: prismarine-controller
+  labels:
+    k8s.kashall.dev/controller: "true"
+spec:
+  containers:
+  - name: prismarine-controller
+    image: <Image>
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    ports:
+      - containerPort: <Port>
+
