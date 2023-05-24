@@ -43,11 +43,13 @@ export default class ClientPod {
   create() {
     const pod = new CoreApi.createNamespacedPod(this.namespace, this.manifest);
     console.log(pod)
+    return pod
   }
 
   remove() {
     try {
       const pod = CoreApi.removeNamespacedPod(this.podName, this.namespace)
+      return pod
     } catch (error) {
       console.log(error)
     }

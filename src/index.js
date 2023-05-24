@@ -11,6 +11,8 @@ const app = express();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 
+import * as k8s from './kubernetes.js'
+
 app.use(express.json())
 app.use(express.urlencoded({
   extended: true
@@ -29,6 +31,16 @@ wss.on('connection', (ws) => {
   //send immediatly a feedback to the incoming connection    
   ws.send('Hi there, I am a WebSocket server');
 });
+
+app.get('/health', (req, res) => {
+  return res.status(200).send('OK')
+})
+
+app.post('/create', (req, res) => {
+  const pod = new ClientPod({ env: { username: 'Test' }})
+  console.log(pod)
+  return res.status(200).send('OK')
+})
 
 async function start() {
   await client.connect();
