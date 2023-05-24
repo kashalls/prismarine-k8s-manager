@@ -4,14 +4,11 @@ import * as express from 'express';
 import * as http from 'http';
 import * as WebSocket from 'ws';
 
-import uuid from "uuid";
 import ClientPod from "./ClientPod.js";
 
 const app = express();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
-
-import * as k8s from './kubernetes.js'
 
 app.use(express.json())
 app.use(express.urlencoded({
