@@ -35,15 +35,16 @@ app.get('/health', (req, res) => {
   return res.status(200).send('OK')
 })
 
-app.post('/create', (req, res) => {
+app.post('/create', async (req, res) => {
   try {
     const pod = new ClientPod({ env: { username: 'Test' }})
-    const thing = pod.create()
+    const thing = await pod.create()
     console.log(thing)
+    return res.status(200).send('OK')
   } catch (err) {
     console.log(err)
+    return res.status(200).send('OK')
   }
-  return res.status(200).send('OK')
 })
 
 async function start() {
