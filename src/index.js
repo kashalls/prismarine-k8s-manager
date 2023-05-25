@@ -36,8 +36,13 @@ app.get('/health', (req, res) => {
 })
 
 app.post('/create', (req, res) => {
-  const pod = new ClientPod({ env: { username: 'Test' }})
-  console.log(pod)
+  try {
+    const pod = new ClientPod({ env: { username: 'Test' }})
+    const thing = pod.create()
+    console.log(thing)
+  } catch (err) {
+    console.log(err)
+  }
   return res.status(200).send('OK')
 })
 
