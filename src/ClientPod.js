@@ -1,6 +1,5 @@
 import { CoreApi } from './kubernetes.js'
 
-
 export default class ClientPod {
   constructor(options) {
     if (!options) throw Error('ClientPod has no options.')
@@ -24,10 +23,6 @@ export default class ClientPod {
       },
       spec: {
         automountServiceAccountToken: false,
-        dnsPolicy: "None",
-        dnsConfig: {
-          nameservers: ["1.1.1.1", "9.9.9.9", "8.8.8.8"],
-        },
         containers: [
           {
             name: this.namespace,
