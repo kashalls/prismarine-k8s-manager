@@ -1,8 +1,8 @@
 import 'dotenv/config'
 
-import * as express from 'express';
-import * as http from 'http';
-import * as WebSocket from 'ws';
+import express from 'express';
+import http from 'http';
+import WebSocket from 'ws';
 
 import ClientPod from "./ClientPod.js";
 

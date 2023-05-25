@@ -28,7 +28,7 @@ metadata:
 spec:
   containers:
   - name: prismarine-controller
-    image: ghcr.io/kashalls/prismarine-k8s-master:main-59ee1368-1684265687
+    image: ghcr.io/kashalls/prismarine-k8s-master:main-59ee1368-1684265687 # {"$imagepolicy": "flux-system:prismarine-controller"}
     resources:
       limits:
         memory: "128Mi"
