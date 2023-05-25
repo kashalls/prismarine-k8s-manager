@@ -37,7 +37,7 @@ app.get('/health', (req, res) => {
 
 app.post('/create', async (req, res) => {
   try {
-    const pod = new ClientPod({ env: { username: 'test', host: '192.168.0.68', auth: 'offline' }})
+    const pod = new ClientPod({ env: { PRISMARINE_USERNAME: 'test', PRISMARINE_HOST: '192.168.0.68', PRISMARINE_AUTH: 'offline' }})
     const thing = await pod.create()
     console.log(thing)
     return res.status(200).send('OK')

@@ -14,7 +14,7 @@ export default class ClientPod {
   get manifest() {
     return {
       metadata: {
-        name: this.podName.toLowerCase(),
+        name: this.podName.toLowerCase().split('_')[1],
         namespace: this.namespace.toLowerCase(),
         annotations: {},
         labels: {
