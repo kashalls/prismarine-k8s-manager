@@ -27,7 +27,7 @@ export default class ClientPod {
           {
             name: this.namespace,
             image:
-              "ghcr.io/kashalls/prismarine-k8s-runner:main-d046213a-1684172042",
+              "ghcr.io/kashalls/prismarine-k8s-runner:main-a719a149-1685054477",
             env: this.env,
           },
         ],
