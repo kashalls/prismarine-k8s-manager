@@ -41,7 +41,7 @@ export default class ClientPod {
   }
 
   create() {
-    const pod = new CoreApi.createNamespacedPod(this.namespace, this.manifest);
+    const pod = CoreApi.createNamespacedPod(this.namespace, this.manifest);
     console.log(pod)
     return pod
   }
