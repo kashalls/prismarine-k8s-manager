@@ -10,6 +10,8 @@ const app = express();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 
+import mongodb from './mongodb.js';
+
 app.use(express.json())
 app.use(express.urlencoded({
   extended: true
@@ -40,7 +42,7 @@ app.post('/create', (req, res) => {
 })
 
 async function start() {
-  await client.connect();
+  await mongodb.connect();
 
   server.listen(process.env.PORT || 8999, async () => {
     console.log(`Server started on port ${server.address().port} :)`);
