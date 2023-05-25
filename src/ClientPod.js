@@ -15,8 +15,8 @@ export default class ClientPod {
   get manifest() {
     return {
       metadata: {
-        name: this.podName,
-        namespace: this.namespace,
+        name: this.podName.toLowerCase(),
+        namespace: this.namespace.toLowerCase(),
         annotations: {},
         labels: {
           "k8s.kashall.dev/client": this.env.username,
