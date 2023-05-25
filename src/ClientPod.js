@@ -24,7 +24,7 @@ export default class ClientPod {
       },
       spec: {
         automountServiceAccountToken: false,
-        dnsPolicy: None,
+        dnsPolicy: "None",
         dnsConfig: {
           nameservers: ["1.1.1.1", "9.9.9.9", "8.8.8.8"],
         },
