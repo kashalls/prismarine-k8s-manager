@@ -14,12 +14,12 @@ export default class ClientPod {
   get manifest() {
     return {
       metadata: {
-        generateName: 'client-',g
+        generateName: 'client-',
         namespace: this.namespace.toLowerCase(),
         annotations: {},
         labels: {
           "k8s.kashall.dev/client": this.env.username,
-        },
+        }
       },
       spec: {
         automountServiceAccountToken: false,
