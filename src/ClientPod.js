@@ -18,7 +18,7 @@ export default class ClientPod {
         namespace: this.namespace.toLowerCase(),
         annotations: {},
         labels: {
-          "k8s.kashall.dev/client": this.env.username,
+          "k8s.kashall.dev/client": this.env.username.toLowerCase(),
         }
       },
       spec: {
