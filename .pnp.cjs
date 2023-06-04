@@ -29,7 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@kubernetes/client-node", "npm:0.18.1"],\
-            ["dotenv", "npm:16.1.3"],\
+            ["dotenv", "npm:16.1.4"],\
             ["express", "npm:4.18.2"],\
             ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.6.0"],\
             ["uuid", "npm:9.0.0"],\
@@ -464,10 +464,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["dotenv", [\
-        ["npm:16.1.3", {\
-          "packageLocation": "./.yarn/cache/dotenv-npm-16.1.3-4df6c2511f-8f73bae720.zip/node_modules/dotenv/",\
+        ["npm:16.1.4", {\
+          "packageLocation": "./.yarn/cache/dotenv-npm-16.1.4-c4499a21eb-c1b2e13df4.zip/node_modules/dotenv/",\
           "packageDependencies": [\
-            ["dotenv", "npm:16.1.3"]\
+            ["dotenv", "npm:16.1.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1267,7 +1267,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["prismarine-k8s-manager", "workspace:."],\
             ["@kubernetes/client-node", "npm:0.18.1"],\
-            ["dotenv", "npm:16.1.3"],\
+            ["dotenv", "npm:16.1.4"],\
             ["express", "npm:4.18.2"],\
             ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.6.0"],\
             ["uuid", "npm:9.0.0"],\
