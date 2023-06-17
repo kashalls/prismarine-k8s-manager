@@ -48,7 +48,9 @@ app.post('/create', async (req, res) => {
 })
 
 async function start() {
+  console.log('Starting up...')
   await mongodb.connect();
+  console.log('Connected to mongodb...')
 
   server.listen(process.env.PORT || 8999, async () => {
     console.log(`Server started on port ${server.address().port} :)`);
