@@ -3,22 +3,19 @@ import { CoreApi } from './kubernetes.js'
 export default class ClientPod {
   constructor(options) {
     if (!options) throw Error('ClientPod has no options.')
-    if (!options.env) throw Error('ClientPod must have environment variables to pass.')
+    this.options = options
 
-    this.namespace = options.namespace ?? 'prismarine-client'
-    this.env = options.env
-
-    this.podName = `${this.namespace}-${this.env.username}`
+    this.namespace = 'prismarine-client'
   }
 
   get manifest() {
     return {
       metadata: {
-        generateName: 'client-',
+        generateName: 'pc-',
         namespace: this.namespace.toLowerCase(),
         annotations: {},
         labels: {
-          "k8s.kashall.dev/client": this.env.username.toLowerCase(),
+          "k8s.kashall.dev/client": this.options.username.toLowerCase(),
         }
       },
       spec: {
