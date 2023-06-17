@@ -24,7 +24,7 @@ export default class ClientPod {
           {
             name: this.namespace,
             image:
-              "docker pull ghcr.io/kashalls/prismarine-k8s-runner:main-ed9d0408-1687033039",
+              "ghcr.io/kashalls/prismarine-k8s-runner:main-ed9d0408-1687033039",
             env: this.env,
           },
         ],
