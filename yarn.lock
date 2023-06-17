@@ -356,9 +356,9 @@ __metadata:
   linkType: hard
 
 "dotenv@npm:^16.0.3":
-  version: 16.0.3
-  resolution: "dotenv@npm:16.0.3"
-  checksum: afcf03f373d7a6d62c7e9afea6328e62851d627a4e73f2e12d0a8deae1cd375892004f3021883f8aec85932cd2834b091f568ced92b4774625b321db83b827f8
+  version: 16.3.1
+  resolution: "dotenv@npm:16.3.1"
+  checksum: 15d75e7279018f4bafd0ee9706593dd14455ddb71b3bcba9c52574460b7ccaf67d5cf8b2c08a5af1a9da6db36c956a04a1192b101ee102a3e0cf8817bbcf3dfd
   languageName: node
   linkType: hard
 
@@ -892,8 +892,8 @@ __metadata:
   linkType: hard
 
 "mongodb@npm:^5.5.0":
-  version: 5.5.0
-  resolution: "mongodb@npm:5.5.0"
+  version: 5.6.0
+  resolution: "mongodb@npm:5.6.0"
   dependencies:
     bson: ^5.3.0
     mongodb-connection-string-url: ^2.6.0
@@ -913,7 +913,7 @@ __metadata:
       optional: true
     snappy:
       optional: true
-  checksum: fafb75195d605767cf7269aa82a1f4704c3357240d0fef7296d55e83eab592158844988af3b94165769459ff1b2a0af2fc49bc44c9bbabd10d6ddc319668a0e0
+  checksum: 5b1594b24795b2a7824095a917ede2fc37aaef31e60320c833ee9b11cc2f3de9dd87d5afacea2e41eb5eb579ac9780f5bc4b0bb11d3b1be78e8bf0014528192a
   languageName: node
   linkType: hard
 

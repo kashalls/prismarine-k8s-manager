@@ -29,9 +29,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@kubernetes/client-node", "npm:0.18.1"],\
-            ["dotenv", "npm:16.0.3"],\
+            ["dotenv", "npm:16.3.1"],\
             ["express", "npm:4.18.2"],\
-            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.5.0"],\
+            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.6.0"],\
             ["uuid", "npm:9.0.0"],\
             ["ws", "virtual:d8e51e6fe2b47bbc2b62113384b03046cdeafb83fefc8d151bb2e6d33ea8badc741b2f6a20b6fa8629abb4eb3c73f38f17a455bbcc9d32cbfb9c8b66e0afa1a4#npm:8.13.0"]\
           ],\
@@ -464,10 +464,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["dotenv", [\
-        ["npm:16.0.3", {\
-          "packageLocation": "./.yarn/cache/dotenv-npm-16.0.3-4cc29121dc-afcf03f373.zip/node_modules/dotenv/",\
+        ["npm:16.3.1", {\
+          "packageLocation": "./.yarn/cache/dotenv-npm-16.3.1-e6d380a398-15d75e7279.zip/node_modules/dotenv/",\
           "packageDependencies": [\
-            ["dotenv", "npm:16.0.3"]\
+            ["dotenv", "npm:16.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1087,17 +1087,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mongodb", [\
-        ["npm:5.5.0", {\
-          "packageLocation": "./.yarn/cache/mongodb-npm-5.5.0-17930a6d4b-fafb75195d.zip/node_modules/mongodb/",\
+        ["npm:5.6.0", {\
+          "packageLocation": "./.yarn/cache/mongodb-npm-5.6.0-d7404fc735-5b1594b247.zip/node_modules/mongodb/",\
           "packageDependencies": [\
-            ["mongodb", "npm:5.5.0"]\
+            ["mongodb", "npm:5.6.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.5.0", {\
-          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-a82fc76b1e/0/cache/mongodb-npm-5.5.0-17930a6d4b-fafb75195d.zip/node_modules/mongodb/",\
+        ["virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.6.0", {\
+          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-e828b94efd/0/cache/mongodb-npm-5.6.0-d7404fc735-5b1594b247.zip/node_modules/mongodb/",\
           "packageDependencies": [\
-            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.5.0"],\
+            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.6.0"],\
             ["@aws-sdk/credential-providers", null],\
             ["@types/aws-sdk__credential-providers", null],\
             ["@types/mongodb-client-encryption", null],\
@@ -1267,9 +1267,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["prismarine-k8s-manager", "workspace:."],\
             ["@kubernetes/client-node", "npm:0.18.1"],\
-            ["dotenv", "npm:16.0.3"],\
+            ["dotenv", "npm:16.3.1"],\
             ["express", "npm:4.18.2"],\
-            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.5.0"],\
+            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.6.0"],\
             ["uuid", "npm:9.0.0"],\
             ["ws", "virtual:d8e51e6fe2b47bbc2b62113384b03046cdeafb83fefc8d151bb2e6d33ea8badc741b2f6a20b6fa8629abb4eb3c73f38f17a455bbcc9d32cbfb9c8b66e0afa1a4#npm:8.13.0"]\
           ],\
