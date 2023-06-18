@@ -2,15 +2,15 @@ import 'dotenv/config'
 
 import express from 'express';
 import http from 'http';
-import WebSocket from 'ws';
+import { Server as SocketServer } from 'socket.io'
 
 import ClientPod from "./ClientPod.js";
+import mongodb from './mongodb.js';
+
 
 const app = express();
 const server = http.createServer(app);
-const wss = new WebSocket.Server({ server, path: '/runner' });
-
-import mongodb from './mongodb.js';
+const wss = new SocketServer(server, { path: '/runner' })
 
 app.use(express.json())
 app.use(express.urlencoded({
