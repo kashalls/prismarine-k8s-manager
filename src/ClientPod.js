@@ -23,7 +23,7 @@ export default class ClientPod {
         containers: [
           {
             name: this.namespace,
-            image: "ghcr.io/kashalls/prismarine-k8s-runner:main-be377b8c-1687117387",
+            image: "ghcr.io/kashalls/prismarine-k8s-runner:main-a58307f7-1687123422",
             env: [
               {
                 name: 'MINEFLAYER_CONFIG',
