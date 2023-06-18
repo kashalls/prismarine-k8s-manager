@@ -36,8 +36,9 @@ app.get('/health', (req, res) => {
 })
 
 app.post('/create', async (req, res) => {
+  console.log(req.body)
   try {
-    const pod = new ClientPod({ username: 'test', host: 'play.eternal.gs', port: 57828, auth: 'offline' })
+    const pod = new ClientPod(req.body)
     const thing = await pod.create()
     console.log(thing)
     return res.status(200).send('OK')
