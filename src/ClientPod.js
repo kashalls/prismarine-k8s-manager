@@ -33,7 +33,6 @@ export default class ClientPod {
                 name: 'CONTROLLER_HOST',
                 value: process.env.PRISMARINE_CONTROLLER_SERVICE_HOST
               },
-              ,
               {
                 name: 'CONTROLLER_PORT',
                 value: process.env.PRISMARINE_CONTROLLER_SERVICE_PORT
