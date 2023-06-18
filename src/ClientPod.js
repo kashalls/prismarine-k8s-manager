@@ -24,9 +24,12 @@ export default class ClientPod {
           {
             name: this.namespace,
             image: "ghcr.io/kashalls/prismarine-k8s-runner:main-3153a3d1-1687045371",
-            env: {
-              MINEFLAYER_CONFIG: JSON.stringify(this.options)
-            },
+            env: [
+              {
+                name: 'MINEFLAYER_CONFIG',
+                value: JSON.stringify(this.options)
+              }
+            ]
           },
         ],
       },
