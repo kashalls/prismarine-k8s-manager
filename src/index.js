@@ -8,7 +8,7 @@ import ClientPod from "./ClientPod.js";
 
 const app = express();
 const server = http.createServer(app);
-const wss = new WebSocket.Server({ server });
+const wss = new WebSocket.Server({ server, path: '/runner' });
 
 import mongodb from './mongodb.js';
 
