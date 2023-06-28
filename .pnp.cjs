@@ -32,7 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dotenv", "npm:16.3.1"],\
             ["express", "npm:4.18.2"],\
             ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.6.0"],\
-            ["socket.io", "npm:4.7.0"],\
+            ["socket.io", "npm:4.7.1"],\
             ["uuid", "npm:9.0.0"],\
             ["ws", "virtual:d8e51e6fe2b47bbc2b62113384b03046cdeafb83fefc8d151bb2e6d33ea8badc741b2f6a20b6fa8629abb4eb3c73f38f17a455bbcc9d32cbfb9c8b66e0afa1a4#npm:8.13.0"]\
           ],\
@@ -1398,7 +1398,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dotenv", "npm:16.3.1"],\
             ["express", "npm:4.18.2"],\
             ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.6.0"],\
-            ["socket.io", "npm:4.7.0"],\
+            ["socket.io", "npm:4.7.1"],\
             ["uuid", "npm:9.0.0"],\
             ["ws", "virtual:d8e51e6fe2b47bbc2b62113384b03046cdeafb83fefc8d151bb2e6d33ea8badc741b2f6a20b6fa8629abb4eb3c73f38f17a455bbcc9d32cbfb9c8b66e0afa1a4#npm:8.13.0"]\
           ],\
@@ -1615,10 +1615,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["socket.io", [\
-        ["npm:4.7.0", {\
-          "packageLocation": "./.yarn/cache/socket.io-npm-4.7.0-603a059971-99e4a40d13.zip/node_modules/socket.io/",\
+        ["npm:4.7.1", {\
+          "packageLocation": "./.yarn/cache/socket.io-npm-4.7.1-9d967bec2e-81404d0638.zip/node_modules/socket.io/",\
           "packageDependencies": [\
-            ["socket.io", "npm:4.7.0"],\
+            ["socket.io", "npm:4.7.1"],\
             ["accepts", "npm:1.3.8"],\
             ["base64id", "npm:2.0.0"],\
             ["cors", "npm:2.8.5"],\

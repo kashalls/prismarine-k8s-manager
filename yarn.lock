@@ -1349,8 +1349,8 @@ __metadata:
   linkType: hard
 
 "socket.io@npm:^4.6.2":
-  version: 4.7.0
-  resolution: "socket.io@npm:4.7.0"
+  version: 4.7.1
+  resolution: "socket.io@npm:4.7.1"
   dependencies:
     accepts: ~1.3.4
     base64id: ~2.0.0
@@ -1359,7 +1359,7 @@ __metadata:
     engine.io: ~6.5.0
     socket.io-adapter: ~2.5.2
     socket.io-parser: ~4.2.4
-  checksum: 99e4a40d13b1f04e2febddd484870a3ea85e7cc310bf8dbb35adc8111a29fee416a3c01a2c1fd7d06a1bee5ede765e181966753fd28b718331744ef67c83a961
+  checksum: 81404d06383aa5495b3cb9a1a4fc1435cfa97d8963c89fa54403c3ef20e0884eccedb8799b1c804a40896f903d64543e2303071d5d60dcbf7e062edf7a98d87f
   languageName: node
   linkType: hard
 
