@@ -1,5 +1,5 @@
 import crypto from 'crypto'
-import uuid from 'uuid'
+import { v4 as uuidv4 } from 'uuid';
 import Manifest from "./Manifest.js";
 
 export default class PodManifest extends Manifest {
@@ -42,7 +42,7 @@ export default class PodManifest extends Manifest {
               },
               {
                 name: 'SHARED_KEY',
-                value: uuid.v4()
+                value: uuidv4()
               },
               {
                 name: 'MONGO_CONNECTION_STRING',
