@@ -1,3 +1,3 @@
 import { MongoClient } from 'mongodb'
 
-export default new MongoClient(process.env.MONGODB_URL)
+export default new MongoClient(process.env.MONGO_CONNECTION_STRING)
