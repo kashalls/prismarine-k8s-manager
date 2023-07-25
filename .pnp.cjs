@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express-oauth2-jwt-bearer", "npm:1.5.0"],\
             ["helmet", "npm:7.0.0"],\
             ["jsonwebtoken", "npm:9.0.1"],\
-            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.6.0"],\
+            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.7.0"],\
             ["prismarine-auth", "npm:2.2.0"],\
             ["socket.io", "npm:4.7.1"],\
             ["uuid", "npm:9.0.0"],\
@@ -383,10 +383,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["bson", [\
-        ["npm:5.3.0", {\
-          "packageLocation": "./.yarn/cache/bson-npm-5.3.0-5ecf204f9b-c1e57630fe.zip/node_modules/bson/",\
+        ["npm:5.4.0", {\
+          "packageLocation": "./.yarn/cache/bson-npm-5.4.0-2f854c8216-1c07e3d09f.zip/node_modules/bson/",\
           "packageDependencies": [\
-            ["bson", "npm:5.3.0"]\
+            ["bson", "npm:5.4.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1379,22 +1379,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mongodb", [\
-        ["npm:5.6.0", {\
-          "packageLocation": "./.yarn/cache/mongodb-npm-5.6.0-d7404fc735-5b1594b247.zip/node_modules/mongodb/",\
+        ["npm:5.7.0", {\
+          "packageLocation": "./.yarn/cache/mongodb-npm-5.7.0-c5e415a2e7-16357b6229.zip/node_modules/mongodb/",\
           "packageDependencies": [\
-            ["mongodb", "npm:5.6.0"]\
+            ["mongodb", "npm:5.7.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.6.0", {\
-          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-e828b94efd/0/cache/mongodb-npm-5.6.0-d7404fc735-5b1594b247.zip/node_modules/mongodb/",\
+        ["virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.7.0", {\
+          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-48394fe510/0/cache/mongodb-npm-5.7.0-c5e415a2e7-16357b6229.zip/node_modules/mongodb/",\
           "packageDependencies": [\
-            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.6.0"],\
+            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.7.0"],\
             ["@aws-sdk/credential-providers", null],\
+            ["@mongodb-js/zstd", null],\
             ["@types/aws-sdk__credential-providers", null],\
+            ["@types/kerberos", null],\
             ["@types/mongodb-client-encryption", null],\
+            ["@types/mongodb-js__zstd", null],\
             ["@types/snappy", null],\
-            ["bson", "npm:5.3.0"],\
+            ["bson", "npm:5.4.0"],\
+            ["kerberos", null],\
             ["mongodb-client-encryption", null],\
             ["mongodb-connection-string-url", "npm:2.6.0"],\
             ["saslprep", "npm:1.0.3"],\
@@ -1403,9 +1407,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "packagePeers": [\
             "@aws-sdk/credential-providers",\
+            "@mongodb-js/zstd",\
             "@types/aws-sdk__credential-providers",\
+            "@types/kerberos",\
             "@types/mongodb-client-encryption",\
+            "@types/mongodb-js__zstd",\
             "@types/snappy",\
+            "kerberos",\
             "mongodb-client-encryption",\
             "snappy"\
           ],\
@@ -1619,7 +1627,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express-oauth2-jwt-bearer", "npm:1.5.0"],\
             ["helmet", "npm:7.0.0"],\
             ["jsonwebtoken", "npm:9.0.1"],\
-            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.6.0"],\
+            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.7.0"],\
             ["prismarine-auth", "npm:2.2.0"],\
             ["socket.io", "npm:4.7.1"],\
             ["uuid", "npm:9.0.0"],\
