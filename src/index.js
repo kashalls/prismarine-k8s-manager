@@ -5,7 +5,6 @@ import http from 'http';
 import { Server as SocketServer } from 'socket.io'
 import helmet from 'helmet'
 
-import ClientPod from "./ClientPod.js";
 import mongodb from './mongodb.js';
 import jwtCheck from './Authentication.js';
 import PodManifest from './manifests/Pod.js';
@@ -45,6 +44,7 @@ app.post('/create', async (req, res) => {
   console.log(req.body)
   try {
     const pod = new PodManifest(req.body)
+    console.log(pod.id, pod.name)
     const thing = await pod.create()
     console.log(thing)
     return res.status(200).send('OK')
