@@ -1,17 +1,34 @@
 import 'dotenv/config'
+import process from 'node:process'
+
+const argv = key => {
+  if ( process.argv.includes( `--${ key }` ) ) return true;
+  const value = process.argv.find( element => element.startsWith( `--${ key }=` ) );
+  if ( !value ) return null;
+  return value.replace( `--${ key }=` , '' );
+}
+
+const customRunnerImage = argv('runner-image')
+console.log(customRunnerImage ? `Using custom image: ${customRunnerImage}`: `Using default image.`)
 
 import express from 'express';
 import http from 'http';
 import { Server as SocketServer } from 'socket.io'
+import helmet from 'helmet'
 
 import ClientPod from "./ClientPod.js";
 import mongodb from './mongodb.js';
+import jwtCheck from './Authentication.js';
+import PodManifest from './manifests/Pod.js';
 
+// enforce on all endpoints
+// app.use(jwtCheck);
 
 const app = express();
 const server = http.createServer(app);
-const wss = new SocketServer(server, { path: '/runner' })
+const wss = new SocketServer(server, { path: '/' })
 
+app.use(helmet())
 app.use(express.json())
 app.use(express.urlencoded({
   extended: true
@@ -31,14 +48,14 @@ wss.on('connection', (ws) => {
   ws.send('Hi there, I am a WebSocket server');
 });
 
-app.get('/health', (req, res) => {
+app.all('/health', (req, res) => {
   return res.status(200).send('OK')
 })
 
 app.post('/create', async (req, res) => {
   console.log(req.body)
   try {
-    const pod = new ClientPod(req.body)
+    const pod = new PodManifest(req.body)
     const thing = await pod.create()
     console.log(thing)
     return res.status(200).send('OK')
