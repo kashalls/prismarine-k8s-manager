@@ -6,7 +6,7 @@ export default class PodManifest extends Manifest {
   constructor(options = {}) {
     super(options)
 
-    this.image = options.image ?? 'ghcr.io/kashalls/prismarine-k8s-runner'
+    this.image = options.image ?? process.env.RUNNER_IMAGE ?? 'ghcr.io/kashalls/prismarine-k8s-runner:v1'
   }
 
   static id = crypto.randomBytes(4).toString('hex')

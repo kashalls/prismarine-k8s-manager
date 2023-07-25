@@ -1,15 +1,4 @@
 import 'dotenv/config'
-import process from 'node:process'
-
-const argv = key => {
-  if ( process.argv.includes( `--${ key }` ) ) return true;
-  const value = process.argv.find( element => element.startsWith( `--${ key }=` ) );
-  if ( !value ) return null;
-  return value.replace( `--${ key }=` , '' );
-}
-
-const customRunnerImage = argv('runner-image')
-console.log(customRunnerImage ? `Using custom image: ${customRunnerImage}`: `Using default image.`)
 
 import express from 'express';
 import http from 'http';
