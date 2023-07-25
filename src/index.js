@@ -64,4 +64,4 @@ async function start() {
   });
 }
 
-start()
+start().catch(console.log)
