@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express-oauth2-jwt-bearer", "npm:1.5.0"],\
             ["helmet", "npm:7.0.0"],\
             ["jsonwebtoken", "npm:9.0.1"],\
-            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.7.0"],\
+            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:6.0.0"],\
             ["prismarine-auth", "npm:2.2.0"],\
             ["socket.io", "npm:4.7.1"],\
             ["uuid", "npm:9.0.0"],\
@@ -86,6 +86,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tslib", "npm:2.5.0"],\
             ["underscore", "npm:1.13.6"],\
             ["ws", "virtual:d8e51e6fe2b47bbc2b62113384b03046cdeafb83fefc8d151bb2e6d33ea8badc741b2f6a20b6fa8629abb4eb3c73f38f17a455bbcc9d32cbfb9c8b66e0afa1a4#npm:8.13.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@mongodb-js/saslprep", [\
+        ["npm:1.1.0", {\
+          "packageLocation": "./.yarn/cache/@mongodb-js-saslprep-npm-1.1.0-3906c025b8-1479a43e21.zip/node_modules/@mongodb-js/saslprep/",\
+          "packageDependencies": [\
+            ["@mongodb-js/saslprep", "npm:1.1.0"],\
+            ["sparse-bitfield", "npm:3.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -383,10 +393,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["bson", [\
-        ["npm:5.4.0", {\
-          "packageLocation": "./.yarn/cache/bson-npm-5.4.0-2f854c8216-1c07e3d09f.zip/node_modules/bson/",\
+        ["npm:6.0.0", {\
+          "packageLocation": "./.yarn/cache/bson-npm-6.0.0-7b3cba060e-594ebbfcae.zip/node_modules/bson/",\
           "packageDependencies": [\
-            ["bson", "npm:5.4.0"]\
+            ["bson", "npm:6.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1057,15 +1067,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["ip", [\
-        ["npm:2.0.0", {\
-          "packageLocation": "./.yarn/cache/ip-npm-2.0.0-204facb3cc-cfcfac6b87.zip/node_modules/ip/",\
-          "packageDependencies": [\
-            ["ip", "npm:2.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["ipaddr.js", [\
         ["npm:1.9.1", {\
           "packageLocation": "./.yarn/cache/ipaddr.js-npm-1.9.1-19ae7878b4-f88d382598.zip/node_modules/ipaddr.js/",\
@@ -1379,43 +1380,50 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mongodb", [\
-        ["npm:5.7.0", {\
-          "packageLocation": "./.yarn/cache/mongodb-npm-5.7.0-c5e415a2e7-16357b6229.zip/node_modules/mongodb/",\
+        ["npm:6.0.0", {\
+          "packageLocation": "./.yarn/cache/mongodb-npm-6.0.0-7c1e74de91-0399d12977.zip/node_modules/mongodb/",\
           "packageDependencies": [\
-            ["mongodb", "npm:5.7.0"]\
+            ["mongodb", "npm:6.0.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.7.0", {\
-          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-48394fe510/0/cache/mongodb-npm-5.7.0-c5e415a2e7-16357b6229.zip/node_modules/mongodb/",\
+        ["virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:6.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-ce73e5fd19/0/cache/mongodb-npm-6.0.0-7c1e74de91-0399d12977.zip/node_modules/mongodb/",\
           "packageDependencies": [\
-            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.7.0"],\
+            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:6.0.0"],\
             ["@aws-sdk/credential-providers", null],\
+            ["@mongodb-js/saslprep", "npm:1.1.0"],\
             ["@mongodb-js/zstd", null],\
             ["@types/aws-sdk__credential-providers", null],\
+            ["@types/gcp-metadata", null],\
             ["@types/kerberos", null],\
             ["@types/mongodb-client-encryption", null],\
             ["@types/mongodb-js__zstd", null],\
             ["@types/snappy", null],\
-            ["bson", "npm:5.4.0"],\
+            ["@types/socks", null],\
+            ["bson", "npm:6.0.0"],\
+            ["gcp-metadata", null],\
             ["kerberos", null],\
             ["mongodb-client-encryption", null],\
             ["mongodb-connection-string-url", "npm:2.6.0"],\
-            ["saslprep", "npm:1.0.3"],\
             ["snappy", null],\
-            ["socks", "npm:2.7.1"]\
+            ["socks", null]\
           ],\
           "packagePeers": [\
             "@aws-sdk/credential-providers",\
             "@mongodb-js/zstd",\
             "@types/aws-sdk__credential-providers",\
+            "@types/gcp-metadata",\
             "@types/kerberos",\
             "@types/mongodb-client-encryption",\
             "@types/mongodb-js__zstd",\
             "@types/snappy",\
+            "@types/socks",\
+            "gcp-metadata",\
             "kerberos",\
             "mongodb-client-encryption",\
-            "snappy"\
+            "snappy",\
+            "socks"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1627,7 +1635,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express-oauth2-jwt-bearer", "npm:1.5.0"],\
             ["helmet", "npm:7.0.0"],\
             ["jsonwebtoken", "npm:9.0.1"],\
-            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:5.7.0"],\
+            ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:6.0.0"],\
             ["prismarine-auth", "npm:2.2.0"],\
             ["socket.io", "npm:4.7.1"],\
             ["uuid", "npm:9.0.0"],\
@@ -1770,16 +1778,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["saslprep", [\
-        ["npm:1.0.3", {\
-          "packageLocation": "./.yarn/cache/saslprep-npm-1.0.3-8db649c346-4fdc0b70fb.zip/node_modules/saslprep/",\
-          "packageDependencies": [\
-            ["saslprep", "npm:1.0.3"],\
-            ["sparse-bitfield", "npm:3.0.3"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["semver", [\
         ["npm:7.5.2", {\
           "packageLocation": "./.yarn/cache/semver-npm-7.5.2-28fb0fd2d6-3fdf5d1e6f.zip/node_modules/semver/",\
@@ -1888,17 +1886,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["socket.io-parser", "npm:4.2.4"],\
             ["@socket.io/component-emitter", "npm:3.1.0"],\
             ["debug", "virtual:e03b978163efd58911c17fd351e34aacae4e4c6a093663981b6916ec945b00b5e8342abae1965d91dc58020b658b5f1123d3147f8f6892fbce489d2f7ee1c14b#npm:4.3.4"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["socks", [\
-        ["npm:2.7.1", {\
-          "packageLocation": "./.yarn/cache/socks-npm-2.7.1-17f2b53052-259d9e3e8e.zip/node_modules/socks/",\
-          "packageDependencies": [\
-            ["socks", "npm:2.7.1"],\
-            ["ip", "npm:2.0.0"],\
-            ["smart-buffer", "npm:4.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
