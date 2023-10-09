@@ -31,7 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@kubernetes/client-node", "npm:0.19.0"],\
             ["dotenv", "npm:16.3.1"],\
             ["express", "npm:4.18.2"],\
-            ["express-oauth2-jwt-bearer", "npm:1.5.0"],\
+            ["express-oauth2-jwt-bearer", "npm:1.6.0"],\
             ["helmet", "npm:7.0.0"],\
             ["jsonwebtoken", "npm:9.0.2"],\
             ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:6.1.0"],\
@@ -732,10 +732,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["express-oauth2-jwt-bearer", [\
-        ["npm:1.5.0", {\
-          "packageLocation": "./.yarn/cache/express-oauth2-jwt-bearer-npm-1.5.0-9afdb3ff54-642650d56b.zip/node_modules/express-oauth2-jwt-bearer/",\
+        ["npm:1.6.0", {\
+          "packageLocation": "./.yarn/cache/express-oauth2-jwt-bearer-npm-1.6.0-343765d235-9ad8634d54.zip/node_modules/express-oauth2-jwt-bearer/",\
           "packageDependencies": [\
-            ["express-oauth2-jwt-bearer", "npm:1.5.0"],\
+            ["express-oauth2-jwt-bearer", "npm:1.6.0"],\
             ["jose", "npm:4.14.4"]\
           ],\
           "linkType": "HARD"\
@@ -1593,7 +1593,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@kubernetes/client-node", "npm:0.19.0"],\
             ["dotenv", "npm:16.3.1"],\
             ["express", "npm:4.18.2"],\
-            ["express-oauth2-jwt-bearer", "npm:1.5.0"],\
+            ["express-oauth2-jwt-bearer", "npm:1.6.0"],\
             ["helmet", "npm:7.0.0"],\
             ["jsonwebtoken", "npm:9.0.2"],\
             ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:6.1.0"],\
