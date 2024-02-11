@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prismarine-auth", "npm:2.2.0"],\
             ["socket.io", "npm:4.7.2"],\
             ["uuid", "npm:9.0.1"],\
-            ["ws", "virtual:3d5eb7687e63cbebf20daa6d3e39298a5ae32b6c686f2ed754c2b39b8fad28936f2730ab9d34e24ef48b53bee42cc24fb98ae49b8c5a3f216a114071b36e4077#npm:8.14.1"]\
+            ["ws", "virtual:3d5eb7687e63cbebf20daa6d3e39298a5ae32b6c686f2ed754c2b39b8fad28936f2730ab9d34e24ef48b53bee42cc24fb98ae49b8c5a3f216a114071b36e4077#npm:8.16.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -83,7 +83,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["stream-buffers", "npm:3.0.2"],\
             ["tar", "npm:6.1.14"],\
             ["tslib", "npm:2.5.0"],\
-            ["ws", "virtual:3d5eb7687e63cbebf20daa6d3e39298a5ae32b6c686f2ed754c2b39b8fad28936f2730ab9d34e24ef48b53bee42cc24fb98ae49b8c5a3f216a114071b36e4077#npm:8.14.1"]\
+            ["ws", "virtual:3d5eb7687e63cbebf20daa6d3e39298a5ae32b6c686f2ed754c2b39b8fad28936f2730ab9d34e24ef48b53bee42cc24fb98ae49b8c5a3f216a114071b36e4077#npm:8.16.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1039,7 +1039,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["isomorphic-ws", "virtual:3d5eb7687e63cbebf20daa6d3e39298a5ae32b6c686f2ed754c2b39b8fad28936f2730ab9d34e24ef48b53bee42cc24fb98ae49b8c5a3f216a114071b36e4077#npm:5.0.0"],\
             ["@types/ws", "npm:8.5.4"],\
-            ["ws", "virtual:3d5eb7687e63cbebf20daa6d3e39298a5ae32b6c686f2ed754c2b39b8fad28936f2730ab9d34e24ef48b53bee42cc24fb98ae49b8c5a3f216a114071b36e4077#npm:8.14.1"]\
+            ["ws", "virtual:3d5eb7687e63cbebf20daa6d3e39298a5ae32b6c686f2ed754c2b39b8fad28936f2730ab9d34e24ef48b53bee42cc24fb98ae49b8c5a3f216a114071b36e4077#npm:8.16.0"]\
           ],\
           "packagePeers": [\
             "@types/ws",\
@@ -1600,7 +1600,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prismarine-auth", "npm:2.2.0"],\
             ["socket.io", "npm:4.7.2"],\
             ["uuid", "npm:9.0.1"],\
-            ["ws", "virtual:3d5eb7687e63cbebf20daa6d3e39298a5ae32b6c686f2ed754c2b39b8fad28936f2730ab9d34e24ef48b53bee42cc24fb98ae49b8c5a3f216a114071b36e4077#npm:8.14.1"]\
+            ["ws", "virtual:3d5eb7687e63cbebf20daa6d3e39298a5ae32b6c686f2ed754c2b39b8fad28936f2730ab9d34e24ef48b53bee42cc24fb98ae49b8c5a3f216a114071b36e4077#npm:8.16.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2104,17 +2104,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["npm:8.14.1", {\
-          "packageLocation": "./.yarn/cache/ws-npm-8.14.1-65c71ef1c9-9e310be2b0.zip/node_modules/ws/",\
+        ["npm:8.16.0", {\
+          "packageLocation": "./.yarn/cache/ws-npm-8.16.0-46943f6199-feb3eecd2b.zip/node_modules/ws/",\
           "packageDependencies": [\
-            ["ws", "npm:8.14.1"]\
+            ["ws", "npm:8.16.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:3d5eb7687e63cbebf20daa6d3e39298a5ae32b6c686f2ed754c2b39b8fad28936f2730ab9d34e24ef48b53bee42cc24fb98ae49b8c5a3f216a114071b36e4077#npm:8.14.1", {\
-          "packageLocation": "./.yarn/__virtual__/ws-virtual-cdf6770227/0/cache/ws-npm-8.14.1-65c71ef1c9-9e310be2b0.zip/node_modules/ws/",\
+        ["virtual:3d5eb7687e63cbebf20daa6d3e39298a5ae32b6c686f2ed754c2b39b8fad28936f2730ab9d34e24ef48b53bee42cc24fb98ae49b8c5a3f216a114071b36e4077#npm:8.16.0", {\
+          "packageLocation": "./.yarn/__virtual__/ws-virtual-168dd8c724/0/cache/ws-npm-8.16.0-46943f6199-feb3eecd2b.zip/node_modules/ws/",\
           "packageDependencies": [\
-            ["ws", "virtual:3d5eb7687e63cbebf20daa6d3e39298a5ae32b6c686f2ed754c2b39b8fad28936f2730ab9d34e24ef48b53bee42cc24fb98ae49b8c5a3f216a114071b36e4077#npm:8.14.1"],\
+            ["ws", "virtual:3d5eb7687e63cbebf20daa6d3e39298a5ae32b6c686f2ed754c2b39b8fad28936f2730ab9d34e24ef48b53bee42cc24fb98ae49b8c5a3f216a114071b36e4077#npm:8.16.0"],\
             ["@types/bufferutil", null],\
             ["@types/utf-8-validate", null],\
             ["bufferutil", null],\
