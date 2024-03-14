@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jsonwebtoken", "npm:9.0.2"],\
             ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:6.1.0"],\
             ["prismarine-auth", "npm:2.2.0"],\
-            ["socket.io", "npm:4.7.2"],\
+            ["socket.io", "npm:4.7.5"],\
             ["uuid", "npm:9.0.1"],\
             ["ws", "virtual:3d5eb7687e63cbebf20daa6d3e39298a5ae32b6c686f2ed754c2b39b8fad28936f2730ab9d34e24ef48b53bee42cc24fb98ae49b8c5a3f216a114071b36e4077#npm:8.14.1"]\
           ],\
@@ -1598,7 +1598,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jsonwebtoken", "npm:9.0.2"],\
             ["mongodb", "virtual:4ac53102451cab031780cb7888193bc1794523c02133018d7e5f42f27aeb6931b39a49e0b678864e2c7fd008d60471e4323873db8db178cb8cbfafc47dd64413#npm:6.1.0"],\
             ["prismarine-auth", "npm:2.2.0"],\
-            ["socket.io", "npm:4.7.2"],\
+            ["socket.io", "npm:4.7.5"],\
             ["uuid", "npm:9.0.1"],\
             ["ws", "virtual:3d5eb7687e63cbebf20daa6d3e39298a5ae32b6c686f2ed754c2b39b8fad28936f2730ab9d34e24ef48b53bee42cc24fb98ae49b8c5a3f216a114071b36e4077#npm:8.14.1"]\
           ],\
@@ -1805,10 +1805,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["socket.io", [\
-        ["npm:4.7.2", {\
-          "packageLocation": "./.yarn/cache/socket.io-npm-4.7.2-c35c68fbd6-2dfac8983a.zip/node_modules/socket.io/",\
+        ["npm:4.7.5", {\
+          "packageLocation": "./.yarn/cache/socket.io-npm-4.7.5-7db6120b90-b8b5721615.zip/node_modules/socket.io/",\
           "packageDependencies": [\
-            ["socket.io", "npm:4.7.2"],\
+            ["socket.io", "npm:4.7.5"],\
             ["accepts", "npm:1.3.8"],\
             ["base64id", "npm:2.0.0"],\
             ["cors", "npm:2.8.5"],\
