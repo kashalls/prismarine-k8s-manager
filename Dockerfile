@@ -1,5 +1,5 @@
 # 🚀 Build the runner image
-FROM node:20.6.1-alpine as runner
+FROM node:20.12.0-alpine as runner
 WORKDIR /app
 
 
